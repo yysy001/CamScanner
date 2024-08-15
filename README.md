@@ -1,5 +1,5 @@
 # CamScanner
-'''cpp
+```cpp
 
 #include "esp_camera.h"
 #include <WiFi.h>
@@ -149,7 +149,4 @@ void startCameraServer() {
     httpd_register_uri_handler(server, &uri_get);
   }
 }
-
-
-
-'''
+```
